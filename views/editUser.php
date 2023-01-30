@@ -25,7 +25,7 @@
 ?>
 
 <?php 
-    include "parts/header.php";
+    include "../parts/header.php";
 
     if(isset($resultado)) {
     ?>
@@ -70,11 +70,11 @@
                 </div>
                 <div class="form-group">
                     <input type="submit" name="actualizar" class="btn btn-secondary" value="Actualizar">
-                    <a class="btn btn-secondary" href="index.php">Volver al perfil</a>
+                    <a class="btn btn-secondary" href="../index.php">Volver al perfil</a>
                 </div>
             </form>
         </div>
     </div>
 </div>
 
-<?php include 'parts/footer.php' ?>
+<?php include '../parts/footer.php' ?>

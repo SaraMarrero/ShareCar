@@ -45,7 +45,7 @@
         }
     ?>
 
-<?php include "parts/header.php"; ?>
+<?php include "../parts/header.php"; ?>
 
     <div class="container">
         <div class="row">
@@ -63,7 +63,7 @@
                     <div class="form-group">
                         <input type="submit" name="submit" class="btn btn-secondary bg-dark" value="Reservar">
                         <a href="verViajes.php" class="btn btn-secondary">Volver a los viajes</a>
-                        <a href="index.php" class="btn btn-secondary">Ir al inicio</a>
+                        <a href="../index.php" class="btn btn-secondary">Ir al inicio</a>
                     </div>
                 </form>
             </div>
@@ -76,4 +76,4 @@
         </div>
     </footer>
     
-<?php include "parts/footer.php"; ?>
+<?php include "../parts/footer.php"; ?>

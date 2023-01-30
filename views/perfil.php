@@ -37,7 +37,7 @@
     }
 ?>
 
-<?php include 'parts/header.php' ?>
+<?php include '../parts/header.php' ?>
 
 <?php
     if($error){
@@ -62,8 +62,8 @@
                 // Se comprueba si hay sesión iniciada
                 if(!isset($_SESSION['email'])){
                     echo "<h2 style='color: red'>Información no disponible</h2>";
-                    echo "<p>Si no esta registrado puede registrarse en el siguiente enlace: <a href='./register.php'>Página de registro</a></p>";
-                    echo "<p>Si ya está registrado solo tiene que iniciar sesión en el siguiente enlace: <a href='./login.php'>Página de login</a></p>";
+                    echo "<p>Si no esta registrado puede registrarse en el siguiente enlace: <a href='register.php'>Página de registro</a></p>";
+                    echo "<p>Si ya está registrado solo tiene que iniciar sesión en el siguiente enlace: <a href='login.php'>Página de login</a></p>";
                 } elseif($admin == 1){
                     // Muesta lo que vería el administrador
                     if($administrador && $consultaSQL->rowCount()>0){
@@ -143,9 +143,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="index.php" class="btn btn-secondary mt-4">Regresar al incio</a>
+            <a href="../index.php" class="btn btn-secondary mt-4">Regresar al incio</a>
         </div>
     </div>
 </div>
 
-<?php include 'parts/footer.php' ?>
+<?php include '../parts/footer.php' ?>

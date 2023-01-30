@@ -59,7 +59,7 @@
         }
     ?>
 
-<?php include "parts/header.php"; ?>
+<?php include "../parts/header.php"; ?>
 
     <div class="container">
         <div class="row">
@@ -90,7 +90,7 @@
 
                     <div class="form-group">
                         <input type="submit" name="publicarViaje" class="btn btn-secondary" value="Publicar">
-                        <a href="index.php" class="btn btn-secondary">Regresar al inicio</a>
+                        <a href="../index.php" class="btn btn-secondary">Regresar al inicio</a>
                     </div>
                 </form>
             </div>
@@ -104,13 +104,13 @@
     </footer>
 
 <?php 
-    include "parts/footer.php"; 
+    include "../parts/footer.php"; 
     } else{
-        include "parts/header.php";
+        include "../parts/header.php";
         echo "<h2 style='color: red; margin-left: 12em;'>Información no disponible</h2>";
-        echo "<p style='margin-left: 24em;'>Si no esta registrado puede registrarse en el siguiente enlace: <a href='./register.php'>Página de registro</a></p>";
-        echo "<p style='margin-left: 24em;'>Si ya está registrado solo tiene que iniciar sesión en el siguiente enlace: <a href='./login.php'>Página de login</a></p>";
-        echo "<a  style='margin-left: 24em;' href='index.php' class='btn btn-secondary'>Regresar al inicio</a>";
-        include "parts/footer.php"; 
+        echo "<p style='margin-left: 24em;'>Si no esta registrado puede registrarse en el siguiente enlace: <a href='register.php'>Página de registro</a></p>";
+        echo "<p style='margin-left: 24em;'>Si ya está registrado solo tiene que iniciar sesión en el siguiente enlace: <a href='login.php'>Página de login</a></p>";
+        echo "<a  style='margin-left: 24em;' href='../index.php' class='btn btn-secondary'>Regresar al inicio</a>";
+        include "../parts/footer.php"; 
     }
 ?>

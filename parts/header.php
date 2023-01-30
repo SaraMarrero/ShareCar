@@ -25,25 +25,25 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link"  type="button" class="btn btn-primary" href="./publicarViaje.php">Publicar viaje</a>
+                        <a class="nav-link"  type="button" class="btn btn-primary" href="./views/publicarViaje.php">Publicar viaje</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" type="button" class="btn btn-primary" href="./verViajes.php">Ver viajes</a>
+                        <a class="nav-link" type="button" class="btn btn-primary" href="./views/verViajes.php">Ver viajes</a>
                     </li>
                 </ul>
 
                 <!-- Se crea un botón desplegable para los usuarios -->
                 <div class="dropdown show">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="./img/iconoLogin.png" style="width: 50%;">
+                        <img src="../img/iconoLogin.png" style="width: 50%;">
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="./login.php">Iniciar Sesión</a>
-                        <a class="dropdown-item" href="./register.php">Registrarse</a>
-                        <a class="dropdown-item" href="./perfil.php">Perfil</a>
-                        <a class="dropdown-item" href="./cerrarSesion.php">Cerrar sesión</a>
+                        <a class="dropdown-item" href="./views/login.php">Iniciar Sesión</a>
+                        <a class="dropdown-item" href="./views/register.php">Registrarse</a>
+                        <a class="dropdown-item" href="./views/perfil.php">Perfil</a>
+                        <a class="dropdown-item" href="./views/cerrarSesion.php">Cerrar sesión</a>
                     </div>
                 </div>
             </div>

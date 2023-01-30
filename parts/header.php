@@ -25,11 +25,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link"  type="button" class="btn btn-primary" href="./views/publicarViaje.php">Publicar viaje</a>
+                        <a class="nav-link"  type="button" class="btn btn-primary" href="../views/publicarViaje.php">Publicar viaje</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" type="button" class="btn btn-primary" href="./views/verViajes.php">Ver viajes</a>
+                        <a class="nav-link" type="button" class="btn btn-primary" href="../views/verViajes.php">Ver viajes</a>
                     </li>
                 </ul>
 
@@ -40,10 +40,10 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="./views/login.php">Iniciar Sesión</a>
-                        <a class="dropdown-item" href="./views/register.php">Registrarse</a>
-                        <a class="dropdown-item" href="./views/perfil.php">Perfil</a>
-                        <a class="dropdown-item" href="./views/cerrarSesion.php">Cerrar sesión</a>
+                        <a class="dropdown-item" href="../views/login.php">Iniciar Sesión</a>
+                        <a class="dropdown-item" href="../views/register.php">Registrarse</a>
+                        <a class="dropdown-item" href="../views/perfil.php">Perfil</a>
+                        <a class="dropdown-item" href="../views/cerrarSesion.php">Cerrar sesión</a>
                     </div>
                 </div>
             </div>

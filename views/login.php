@@ -31,7 +31,7 @@
             } elseif(isset($final["emailUsuario"])){
                 if($final["passwordUsuario"] == $password){
                     $_SESSION["email"] = $final["emailUsuario"];
-                    header("Location: ./index.php");
+                    header("Location: ../index.php");
                 } else{
                     echo "<p style='color:red;'>El usuario o la contraseña no son correctos</p>";
                 }

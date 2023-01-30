@@ -1,11 +1,11 @@
 <?php
     session_start();
 
+    include '../functions/functions.php';
     $config = include 'config.php';
 
     // Se conecta con la base de datos
-    $dsn = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name'];
-    $conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options']);
+    $conexion = conexion();
 
     // Se recogen los datos introducidos en el formulario
     $plazas = $_POST['plazas'];

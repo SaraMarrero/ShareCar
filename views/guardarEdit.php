@@ -1,10 +1,11 @@
 <?php
     $config = include 'config.php';
 
-    // Se conecta con la base de datos
-    $dsn = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name'];
-    $conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options']);
+    include '../functions/functions.php';
 
+    // Se conecta con la base de datos
+    $conexion = conexion();
+    
     // Se recogen los datos introducidos en el formulario
     $dni = $_POST['dni'];
     $nombre = $_POST['nombre'];

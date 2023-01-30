@@ -1,12 +1,13 @@
 <?php 
     session_start();
+
+    include '../functions/functions.php';
     
     $error = false;
     $config = include 'config.php';
     try{
         // Se conecta con la base de datos
-        $dsn = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name'];
-        $conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options']);
+        $conexion = conexion();
 
         // Se seleccionan toda la información de todos los viajes
         $consultaSQL = "SELECT * FROM viaje";

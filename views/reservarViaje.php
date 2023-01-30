@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    include '../functions/functions.php';
     
     if(isset($_POST["publicarViaje"])){
         $result = [
@@ -11,8 +13,7 @@
 
         try{
             // Se conecta con la base de datos
-            $dsn = "mysql:host=" . $config["db"]["host"] . ";dbname=" . $config["db"]["name"];
-            $conexion = new PDO($dsn, $config["db"]["user"], $config["db"]["pass"], $config["db"]["options"]);
+            $conexion = conexion();
 
             // Se coge el id del viaje que se acaba de seleccionar
             $id = $_GET['idViaje'];

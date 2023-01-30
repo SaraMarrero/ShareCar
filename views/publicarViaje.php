@@ -1,6 +1,8 @@
 <?php
     session_start();
 
+    include '../functions/functions.php';
+
     if(isset($_SESSION['email'])){
     
     if(isset($_POST["publicarViaje"])){
@@ -12,9 +14,8 @@
         $config = include "config.php";
 
         try{
-            // Se conecta a la base de datos
-            $dsn = "mysql:host=" . $config["db"]["host"] . ";dbname=" . $config["db"]["name"];
-            $conexion = new PDO($dsn, $config["db"]["user"], $config["db"]["pass"], $config["db"]["options"]);
+            // Se conecta con la base de datos
+            $conexion = conexion();
 
             // Se almacenan los daots del formulario 
             $viaje = [

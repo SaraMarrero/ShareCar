@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    include '../functions/functions.php';
     
     $resultado = [
         'error' => false,    
@@ -9,8 +11,7 @@
 
     try{
         // Se conecta con la base de datos
-        $dsn = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name'];
-        $conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options']);
+        $conexion = conexion();
 
         // Se coge el id del usuario que se acaba de seleccionar
         $dni = $_GET['dni'];

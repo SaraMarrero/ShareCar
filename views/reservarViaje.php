@@ -12,7 +12,7 @@
         $config = include "config.php";
 
         try{
-            // Se conecta con la base de datos
+            // Se llama a la función que conecta con la base de datos
             $conexion = conexion();
 
             // Se coge el id del viaje que se acaba de seleccionar

@@ -4,7 +4,7 @@
     include '../functions/functions.php';
     $config = include 'config.php';
 
-    // Se conecta con la base de datos
+    // Se llama a la función que conecta con la base de datos
     $conexion = conexion();
 
     // Se recogen los datos introducidos en el formulario

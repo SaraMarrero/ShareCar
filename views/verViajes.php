@@ -6,7 +6,7 @@
     $error = false;
     $config = include 'config.php';
     try{
-        // Se conecta con la base de datos
+        // Se llama a la función que conecta con la base de datos
         $conexion = conexion();
 
         // Se seleccionan toda la información de todos los viajes

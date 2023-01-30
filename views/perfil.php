@@ -7,7 +7,7 @@
     $config = include 'config.php';
 
     try{
-        // Se conecta con la base de datos
+        // Se llama a la función que conecta con la base de datos
         $conexion = conexion();
 
         if(isset($_SESSION['email'])){ 

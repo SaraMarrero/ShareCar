@@ -3,7 +3,7 @@
 
     include '../functions/functions.php';
 
-    // Se conecta con la base de datos
+    // Se llama a la función que conecta con la base de datos
     $conexion = conexion();
     
     // Se recogen los datos introducidos en el formulario

@@ -12,7 +12,7 @@
         $config = include "config.php";
 
         try{
-            // Se conecta con la base de datos
+            // Se llama a la función que conecta con la base de datos
             $conexion = conexion();
 
             // Se cogen los datos del formulario y se seleccionan los datos de ese usuario

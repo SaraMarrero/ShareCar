@@ -4,7 +4,7 @@
     * @version 1.0
     * @package General
     * @Date: 2023-01-31
-    * $email: saramarreromiranda@gmail.com
+    * @email: saramarreromiranda@gmail.com
     * @Github: https://github.com/SaraMarrero
  */
 

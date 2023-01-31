@@ -58,7 +58,11 @@ El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo pod
 ## Administrador
 1. El administrador podrá ver todos los viajes (los disponibles, los que ya no tengan plazas y los pasados de fecha), borrar viajes, ver todos los usuarios registrados en la web y borrar usuarios.
 
-2. 
+2. Para **ver todos los viajes** tiene dos enlaces, uno en el menú y otro en medio de la página principal, una vez acceda por unos de esos botones, deberá aparecer una tablas con todos los viajes los viajes especificiando en la columna de pasajeros si estan o no disponibles.
+
+3. Para **eliminar viajes** tiene que estar en la página de ver viajes, una vez ahí, si existen viajes disponibles se podrá apreciar que a la derecha de cada viaje se ve un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el viaje.
+
+4. Para **borar un usuario** tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla los datos de todos los usuarios registrador (salvo la contraseña) y a la derecha un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el usuario.
 
 # Autora
 * Sara Marrero Miranda

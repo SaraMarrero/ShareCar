@@ -64,6 +64,14 @@ El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo pod
 
 4. Para **borar un usuario** tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla los datos de todos los usuarios registrador (salvo la contraseña) y a la derecha un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el usuario.
 
+# Tecnologías
+Para llevar a cabo la realización de este proyecto, he utilizado:
+* HTML
+* CSS
+* Bootstrap
+* PHP
+* Doxygen
+
 # Autora
 * Sara Marrero Miranda
 

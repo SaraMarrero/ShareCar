@@ -19,7 +19,7 @@ git clone https://github.com/SaraMarrero/ShareCar.git
 data/bbdd.sql
 ```
 
-Puede instalarla por medio del xampp, solo tiene que activar mysql, entrar en shell con 'mysql -u root' y ahí copiar los datos del archivo que acabo de mencionar.
+ Puede instalarla por medio del xampp, solo tiene que activar mysql, entrar en shell con 'mysql -u root' y ahí copiar los datos del archivo que acabo de mencionar.
 
 3. El tercer paso es crear el archivo '.env' en el cuál tendrá que crear las variables de entorno para poder conectarse con la base de datos ya creada, se debe mostrar así:
 ```
@@ -38,3 +38,17 @@ php -S localhost:8000
 ```
 http://localhost:8000
 ```
+
+# Uso de la aplicación
+## Usuario sin cuenta
+
+
+## Usuario con cuenta
+
+
+## Administrador
+
+# Autora
+* Sara Marrero Miranda
+
+# Documentación

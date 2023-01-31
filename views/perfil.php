@@ -4,7 +4,6 @@
     include '../functions/functions.php';
 
     $error = false;
-    $config = include 'config.php';
 
     try{
         // Se llama a la función que conecta con la base de datos

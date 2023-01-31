@@ -9,8 +9,6 @@
             "mensaje" => "El usuario " . $_POST["nombre"] . " ha sido registrado con éxito"    
         ];
 
-        $config = include "config.php";
-
         try{
             // Se llama a la función que conecta con la base de datos
             $conexion = conexion();

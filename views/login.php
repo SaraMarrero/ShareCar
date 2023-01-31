@@ -9,8 +9,6 @@
             "mensaje" => "El usuario " . $_POST["email"] . "no existe"
         ];
 
-        $config = include "config.php";
-
         try{
             // Se llama a la función que conecta con la base de datos
             $conexion = conexion();

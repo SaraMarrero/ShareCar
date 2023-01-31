@@ -2,7 +2,6 @@
     session_start();
 
     include '../functions/functions.php';
-    $config = include 'config.php';
 
     // Se llama a la función que conecta con la base de datos
     $conexion = conexion();

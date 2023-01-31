@@ -1,5 +1,4 @@
 <?php
-    $config = include 'config.php';
 
     include '../functions/functions.php';
 

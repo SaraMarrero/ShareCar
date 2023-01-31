@@ -45,7 +45,6 @@
                 $sentencia = $conexion -> prepare($consultaSQL);
                 $sentencia -> execute($usuario);
 
-                
 
                 if($sentencia){
                     echo "<p style='color: green'>El usuario " . $_POST["nombre"] . " ha sido registrado con éxito</p>";

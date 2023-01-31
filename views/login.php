@@ -29,6 +29,7 @@
             // Se comprueba si el usuario existe y si sus datos son válidos
             if(empty($_POST["email"]) || empty($_POST['password'])){
                 echo "<p style='color:red;'>Debe rellenar todos los campos</p>";
+                
             } elseif(isset($final["emailUsuario"])){
                 if($final["passwordUsuario"] == $password){
                     $_SESSION["email"] = $final["emailUsuario"];

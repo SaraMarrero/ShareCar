@@ -22,7 +22,6 @@
 
             $_SESSION['dni'] = $usuario[0]['dniUsuario'];
 
-
             // Se comprueba si es adminsitrador o usuario normal
             $_SESSION['administrador'] = $usuario[0]['administrador'];
             $admin = $_SESSION['administrador'];

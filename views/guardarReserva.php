@@ -15,8 +15,6 @@
     $consulta = $conexion->prepare('UPDATE viaje SET pasajeros = ? where idViaje = ?;');
     $sentencia = $consulta->execute([$plazas, $id]);
 
-
-
     // Se redirecciona a la página de ver los viajes
     header('Location: verViajes.php');
 ?>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Share car: README</title>
+<title>Share Car: Antes de comenzar</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -25,9 +25,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Share car<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Share Car<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">App para compartir coche</div>
+   <div id="projectbrief">Aplicación para compartir coche</div>
   </td>
  </tr>
  </tbody>
@@ -90,10 +90,73 @@ $(document).ready(function(){initNavTree('d3/dcc/md__r_e_a_d_m_e.html','../../')
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">README </div></div>
+  <div class="headertitle"><div class="title">Antes de comenzar </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><p>Importante aclarar que no es una página web real, es un proyecto creado para el módulo de Desarrollo web en entorno servidor y con parte para la asignatura de Despliegue de aplicaciones web de segundo de ciclo de Desarrollo de aplicaciones web.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+ShareCar</h1>
+<p>Este proyecto va sobre una web para compatir coche. En el cuál, sus principales funciones serán crear datos, leer datos, actualizar datos y borrar datos (CRUD).</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Página principal</h1>
+<p><img src="../.././img/imgReadme/3.png" alt="Pagina principal" class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Instalación</h1>
+<ol type="1">
+<li>El primer para es clonar el repsitorio de la siguiente manera: <div class="fragment"><div class="line">git clone https://github.com/SaraMarrero/ShareCar.git</div>
+</div><!-- fragment --></li>
+<li>El segundo paso es crear la base de datos, el archivo de la base de datos está en la siguiente ruta: <div class="fragment"><div class="line">data/bbdd.sql</div>
+</div><!-- fragment --> Puede instalarla por medio del xampp, solo tiene que activar mysql, entrar en shell con 'mysql -u root' y ahí copiar los datos del archivo que acabo de mencionar.</li>
+<li>El tercer paso es crear el archivo '.env' en el cuál tendrá que crear las variables de entorno para poder conectarse con la base de datos ya creada, se debe mostrar así: <div class="fragment"><div class="line">DB_HOST = &#39;localhost&#39;</div>
+<div class="line">DB_USER = &#39;root&#39;</div>
+<div class="line">DB_PASS = &#39;&#39;</div>
+<div class="line">db_name = &#39;sharecar&#39;</div>
+</div><!-- fragment --></li>
+<li>El cuarto paso es tener activado apache y mysql en xampp, y ejecutar desde el directorio raíz el siguiente comando: <div class="fragment"><div class="line">php -S localhost:8000</div>
+</div><!-- fragment --></li>
+<li>El quinto y último paso es ejecutar en el navegador la siguiente ruta: <div class="fragment"><div class="line">http://localhost:8000</div>
+</div><!-- fragment --></li>
+</ol>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Uso de la aplicación</h1>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Usuario sin cuenta</h2>
+<p>El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo podrá visualizar la página principal para ver un poco las característica de lo que ofrece la web, si quiere acceder al resto de apartados, tendría que tener una cuenta activa.</p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Usuario con cuenta</h2>
+<ol type="1">
+<li>Para poder usar la web, si es nuevo usuario, primero tiene que registrarse, para accede a la página de registro tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Registrarse', en caso de que ya tenga cuenta, deberá accede al mismo botón desplegable y ahí entrar a 'Iniciar Sesión'.</li>
+<li>Una vez dentro de la app, podrá tanto publicar un viaje, ver los viajes disponibles, reservar un viaje o editar su propia información de usuario.</li>
+<li>Para <b>publicar un viaje</b> tiene dos enlaces, uno en el menú y otro en medio de la página principal, una vez en acceda por uno de esos botones, deberá aparece un formulario el cuál pida los datos del viaje (la fecha de salida, el origen, el destino y el número de pasajeros que pueden reservar), una vez introducidos los viaje solo faltaría darle al botón de 'Publicar viaje'.</li>
+<li>Para <b>ver los viajes</b> disponibles tiene dos enlaces, uno en el menú y otro en medio de la página principal, una vez acceda por unos de esos botones, deberá aparecer una tablas con los viajes que aún esten disponibles para reservar.</li>
+<li>Para <b>reservar un viaje</b> tiene que estar en la página de ver viajes, una vez ahí, si existen viajes disponibles se podrá apreciar que a la derecha de cada viaje se ve un botón que pone 'Reservar', si se le da click a ese botón la web va a llevarle a otra página donde habrá un formulario que pida cuantas plazas quiere reservar para dicho viaje, ahí introduce el número de plazas que quiere y al darle al botón de 'Reservar' la web le devolverá a la página de ver viajes.</li>
+<li>Para <b>editar su propia información de usuario</b> tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla con sus datos y a la derecha un botón que pone 'Editar', si le da a ese botón la web le mandará a una página con un formulario donde podrá editar sus datos, tras cambiar los datos que desee el usuario solo hay que darle al botón que poner que esta justo debajo que poner 'Editar' y la web lo volverá a poner en la páfina de perfil.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Administrador</h2>
+<ol type="1">
+<li>El administrador podrá ver todos los viajes (los disponibles, los que ya no tengan plazas y los pasados de fecha), borrar viajes, ver todos los usuarios registrados en la web y borrar usuarios.</li>
+<li>Para <b>ver todos los viajes</b> tiene dos enlaces, uno en el menú y otro en medio de la página principal, una vez acceda por unos de esos botones, deberá aparecer una tablas con todos los viajes los viajes especificiando en la columna de pasajeros si estan o no disponibles.</li>
+<li>Para <b>eliminar viajes</b> tiene que estar en la página de ver viajes, una vez ahí, si existen viajes disponibles se podrá apreciar que a la derecha de cada viaje se ve un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el viaje.</li>
+<li>Para <b>borar un usuario</b> tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla los datos de todos los usuarios registrador (salvo la contraseña) y a la derecha un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el usuario.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md8"></a>
+Tecnologías</h1>
+<p>Para llevar a cabo la realización de este proyecto, he utilizado:</p><ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>PHP</li>
+<li>Doxygen</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md9"></a>
+Autora</h1>
+<ul>
+<li>Sara Marrero Miranda</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md10"></a>
+Documentación</h1>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

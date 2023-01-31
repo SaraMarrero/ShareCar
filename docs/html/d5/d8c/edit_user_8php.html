@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Share car: editUser.php File Reference</title>
+<title>Share Car: views/editUser.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -25,9 +25,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Share car<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Share Car<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">App para compartir coche</div>
+   <div id="projectbrief">Aplicación para compartir coche</div>
   </td>
  </tr>
  </tbody>
@@ -91,24 +91,26 @@ $(document).ready(function(){initNavTree('d5/d8c/edit_user_8php.html','../../');
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">editUser.php File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/db2/namespaceviews"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db2/namespaceviews.html">views</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a06face0ef35c41554d8f4fe115363f58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#a06face0ef35c41554d8f4fe115363f58">$resultado</a></td></tr>
 <tr class="separator:a06face0ef35c41554d8f4fe115363f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49c7011be9c979d9174c52a8b83e5d8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#a49c7011be9c979d9174c52a8b83e5d8e">$config</a> = include 'config.php'</td></tr>
-<tr class="separator:a49c7011be9c979d9174c52a8b83e5d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe4cc9788f52e49485473dc699537388"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#abe4cc9788f52e49485473dc699537388">try</a></td></tr>
 <tr class="separator:abe4cc9788f52e49485473dc699537388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a881924afaecbe8ee5c0d26174a1e8081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#a881924afaecbe8ee5c0d26174a1e8081">$conexion</a> = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options'])</td></tr>
-<tr class="separator:a881924afaecbe8ee5c0d26174a1e8081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee9b50bd27322da677c326223fdbf8ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#aee9b50bd27322da677c326223fdbf8ac">$dni</a> = $_GET['dni']</td></tr>
 <tr class="separator:aee9b50bd27322da677c326223fdbf8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab40d58d15a7fb161501f13ceb5a0a2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#aab40d58d15a7fb161501f13ceb5a0a2b">$selectDNI</a> = $conexion-&gt;prepare('SELECT * FROM usuario where dniUsuario=:dni')</td></tr>
+<tr class="memitem:aab40d58d15a7fb161501f13ceb5a0a2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#aab40d58d15a7fb161501f13ceb5a0a2b">$selectDNI</a> = $<a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>-&gt;prepare('SELECT * FROM usuario where dniUsuario=:dni')</td></tr>
 <tr class="separator:aab40d58d15a7fb161501f13ceb5a0a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5d505c8d9c0f8ea7171675fe909808"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/edit_user_8php.html#a7a5d505c8d9c0f8ea7171675fe909808">$dniUsuario</a> = $selectDNI-&gt;fetch()</td></tr>
 <tr class="separator:a7a5d505c8d9c0f8ea7171675fe909808"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,34 +120,6 @@ Variables</h2></td></tr>
 <tr class="separator:a7d50d21e01cd3ef5ebfc8b3e1d202b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a881924afaecbe8ee5c0d26174a1e8081" name="a881924afaecbe8ee5c0d26174a1e8081"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a881924afaecbe8ee5c0d26174a1e8081">&#9670;&#160;</a></span>$conexion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options'])</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a49c7011be9c979d9174c52a8b83e5d8e" name="a49c7011be9c979d9174c52a8b83e5d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49c7011be9c979d9174c52a8b83e5d8e">&#9670;&#160;</a></span>$config</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$config = include 'config.php'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aee9b50bd27322da677c326223fdbf8ac" name="aee9b50bd27322da677c326223fdbf8ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee9b50bd27322da677c326223fdbf8ac">&#9670;&#160;</a></span>$dni</h2>
 
@@ -198,7 +172,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$selectDNI = $conexion-&gt;prepare('SELECT * FROM usuario where dniUsuario=:dni')</td>
+          <td class="memname">$selectDNI = $<a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>-&gt;prepare('SELECT * FROM usuario where dniUsuario=:dni')</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -254,9 +228,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">        </div>
-<div class="line">        <a class="code hl_variable" href="../../d9/d4b/guardar_edit_8php.html#a6441cca8c9fa11e16d2017e8cb733c10">$dsn</a> = <span class="stringliteral">&#39;mysql:host=&#39;</span> . <a class="code hl_variable" href="../../d5/d8c/edit_user_8php.html#a49c7011be9c979d9174c52a8b83e5d8e">$config</a>[<span class="stringliteral">&#39;db&#39;</span>][<span class="stringliteral">&#39;host&#39;</span>] . <span class="stringliteral">&#39;;dbname=&#39;</span> . <a class="code hl_variable" href="../../d5/d8c/edit_user_8php.html#a49c7011be9c979d9174c52a8b83e5d8e">$config</a>[<span class="stringliteral">&#39;db&#39;</span>][<span class="stringliteral">&#39;name&#39;</span>]</div>
-<div class="ttc" id="aedit_user_8php_html_a49c7011be9c979d9174c52a8b83e5d8e"><div class="ttname"><a href="../../d5/d8c/edit_user_8php.html#a49c7011be9c979d9174c52a8b83e5d8e">$config</a></div><div class="ttdeci">$config</div><div class="ttdef"><b>Definition:</b> editUser.php:8</div></div>
-<div class="ttc" id="aguardar_edit_8php_html_a6441cca8c9fa11e16d2017e8cb733c10"><div class="ttname"><a href="../../d9/d4b/guardar_edit_8php.html#a6441cca8c9fa11e16d2017e8cb733c10">$dsn</a></div><div class="ttdeci">$dsn</div><div class="ttdef"><b>Definition:</b> guardarEdit.php:5</div></div>
+<div class="line">        <a class="code hl_variable" href="../../d9/d4b/guardar_edit_8php.html#a881924afaecbe8ee5c0d26174a1e8081">$conexion</a> = <a class="code hl_function" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>()</div>
+<div class="ttc" id="afunctions_8php_html_a33a9c8a31ea29f3f6b484cacb36a6889"><div class="ttname"><a href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a></div><div class="ttdeci">conexion()</div><div class="ttdef"><b>Definition:</b> functions.php:7</div></div>
+<div class="ttc" id="aguardar_edit_8php_html_a881924afaecbe8ee5c0d26174a1e8081"><div class="ttname"><a href="../../d9/d4b/guardar_edit_8php.html#a881924afaecbe8ee5c0d26174a1e8081">$conexion</a></div><div class="ttdeci">$conexion</div><div class="ttdef"><b>Definition:</b> guardarEdit.php:10</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -265,7 +239,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d8c/edit_user_8php.html">editUser.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_810e6677597a758262d47477e73b118d.html">views</a></li><li class="navelem"><a class="el" href="../../d5/d8c/edit_user_8php.html">editUser.php</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

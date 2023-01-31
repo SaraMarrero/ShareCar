@@ -1,7 +1,5 @@
 var delete_viajes_8php =
 [
-    [ "$conexion", "dc/d63/delete_viajes_8php.html#a881924afaecbe8ee5c0d26174a1e8081", null ],
-    [ "$config", "dc/d63/delete_viajes_8php.html#a49c7011be9c979d9174c52a8b83e5d8e", null ],
     [ "$consultaSQL", "dc/d63/delete_viajes_8php.html#ac28a12f1b3212ca1f5935ae0295ffa19", null ],
     [ "$dniPersonal", "dc/d63/delete_viajes_8php.html#ae9518348e98513fa770ea2b2234a1a32", null ],
     [ "$idViaje", "dc/d63/delete_viajes_8php.html#a42c94f203966b220803a982964cbaf79", null ],

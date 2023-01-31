@@ -24,12 +24,28 @@
 */
 var NAVTREE =
 [
-  [ "Share car", "index.html", [
-    [ "README", "d3/dcc/md__r_e_a_d_m_e.html", null ],
+  [ "Share Car", "index.html", [
+    [ "Antes de comenzar", "d3/dcc/md__r_e_a_d_m_e.html", [
+      [ "ShareCar", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Página principal", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Instalación", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md3", null ],
+      [ "Uso de la aplicación", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", [
+        [ "Usuario sin cuenta", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ],
+        [ "Usuario con cuenta", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md6", null ],
+        [ "Administrador", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md7", null ]
+      ] ],
+      [ "Tecnologías", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md8", null ],
+      [ "Autora", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md9", null ],
+      [ "Documentación", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md10", null ]
+    ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]

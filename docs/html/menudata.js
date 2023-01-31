@@ -25,6 +25,8 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Related Pages",url:"pages.html"},
+{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html"}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"Globals",url:"globals.html",children:[
@@ -35,6 +37,7 @@ var menudata={children:[
 {text:"i",url:"globals.html#index_i"},
 {text:"r",url:"globals.html#index_r"},
 {text:"t",url:"globals.html#index_t"}]},
+{text:"Functions",url:"globals_func.html"},
 {text:"Variables",url:"globals_vars.html",children:[
 {text:"$",url:"globals_vars.html#index__24"},
 {text:"c",url:"globals_vars.html#index_c"},

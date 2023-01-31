@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Share car: guardarEdit.php File Reference</title>
+<title>Share Car: views/guardarEdit.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -25,9 +25,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Share car<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Share Car<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">App para compartir coche</div>
+   <div id="projectbrief">Aplicación para compartir coche</div>
   </td>
  </tr>
  </tbody>
@@ -91,18 +91,20 @@ $(document).ready(function(){initNavTree('d9/d4b/guardar_edit_8php.html','../../
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">guardarEdit.php File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/db2/namespaceviews"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db2/namespaceviews.html">views</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a49c7011be9c979d9174c52a8b83e5d8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a49c7011be9c979d9174c52a8b83e5d8e">$config</a> = include 'config.php'</td></tr>
-<tr class="separator:a49c7011be9c979d9174c52a8b83e5d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6441cca8c9fa11e16d2017e8cb733c10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a6441cca8c9fa11e16d2017e8cb733c10">$dsn</a> = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name']</td></tr>
-<tr class="separator:a6441cca8c9fa11e16d2017e8cb733c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a881924afaecbe8ee5c0d26174a1e8081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a881924afaecbe8ee5c0d26174a1e8081">$conexion</a> = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options'])</td></tr>
+<tr class="memitem:a881924afaecbe8ee5c0d26174a1e8081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a881924afaecbe8ee5c0d26174a1e8081">$conexion</a> = <a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>()</td></tr>
 <tr class="separator:a881924afaecbe8ee5c0d26174a1e8081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee9b50bd27322da677c326223fdbf8ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#aee9b50bd27322da677c326223fdbf8ac">$dni</a> = $_POST['dni']</td></tr>
 <tr class="separator:aee9b50bd27322da677c326223fdbf8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,7 +116,7 @@ Variables</h2></td></tr>
 <tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607686ef9f99ea7c42f4f3dd3dbb2b0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a607686ef9f99ea7c42f4f3dd3dbb2b0d">$password</a> = $_POST['password']</td></tr>
 <tr class="separator:a607686ef9f99ea7c42f4f3dd3dbb2b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b1625884d3b429a31ff07be097b7083"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a8b1625884d3b429a31ff07be097b7083">$consulta</a> = $conexion-&gt;prepare('UPDATE usuario SET dniUsuario = ?, nombreUsuario = ?, apellidosUsuario = ?, emailUsuario = ?, passwordUsuario = ? WHERE dniUsuario = ?;')</td></tr>
+<tr class="memitem:a8b1625884d3b429a31ff07be097b7083"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#a8b1625884d3b429a31ff07be097b7083">$consulta</a> = $<a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>-&gt;prepare('UPDATE usuario SET dniUsuario = ?, nombreUsuario = ?, apellidosUsuario = ?, emailUsuario = ?, passwordUsuario = ? WHERE dniUsuario = ?;')</td></tr>
 <tr class="separator:a8b1625884d3b429a31ff07be097b7083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac17e34e2481aba4d112054122cb09b8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/guardar_edit_8php.html#ac17e34e2481aba4d112054122cb09b8d">$sentencia</a> = $consulta-&gt;execute([$dni, $nombre, $apellido, $email, $password, $dni])</td></tr>
 <tr class="separator:ac17e34e2481aba4d112054122cb09b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,21 +143,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options'])</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a49c7011be9c979d9174c52a8b83e5d8e" name="a49c7011be9c979d9174c52a8b83e5d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49c7011be9c979d9174c52a8b83e5d8e">&#9670;&#160;</a></span>$config</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$config = include 'config.php'</td>
+          <td class="memname">$<a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a> = <a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -169,7 +157,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$consulta = $conexion-&gt;prepare('UPDATE usuario SET dniUsuario = ?, nombreUsuario = ?, apellidosUsuario = ?, emailUsuario = ?, passwordUsuario = ? WHERE dniUsuario = ?;')</td>
+          <td class="memname">$consulta = $<a class="el" href="../../d2/d62/functions_8php.html#a33a9c8a31ea29f3f6b484cacb36a6889">conexion</a>-&gt;prepare('UPDATE usuario SET dniUsuario = ?, nombreUsuario = ?, apellidosUsuario = ?, emailUsuario = ?, passwordUsuario = ? WHERE dniUsuario = ?;')</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -184,20 +172,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">$dni = $_POST['dni']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6441cca8c9fa11e16d2017e8cb733c10" name="a6441cca8c9fa11e16d2017e8cb733c10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6441cca8c9fa11e16d2017e8cb733c10">&#9670;&#160;</a></span>$dsn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$dsn = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name']</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,7 +239,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d4b/guardar_edit_8php.html">guardarEdit.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_810e6677597a758262d47477e73b118d.html">views</a></li><li class="navelem"><a class="el" href="../../d9/d4b/guardar_edit_8php.html">guardarEdit.php</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

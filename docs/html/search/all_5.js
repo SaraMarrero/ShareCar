@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['guardaredit_2ephp_0',['guardarEdit.php',['../d9/d4b/guardar_edit_8php.html',1,'']]],
-  ['guardarreserva_2ephp_1',['guardarReserva.php',['../d7/dd4/guardar_reserva_8php.html',1,'']]]
+  ['footer_2ephp_0',['footer.php',['../d4/dbe/footer_8php.html',1,'']]],
+  ['functions_1',['functions',['../df/d36/namespacefunctions.html',1,'']]],
+  ['functions_2ephp_2',['functions.php',['../d2/d62/functions_8php.html',1,'']]]
 ];

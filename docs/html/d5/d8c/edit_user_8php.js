@@ -1,7 +1,5 @@
 var edit_user_8php =
 [
-    [ "$conexion", "d5/d8c/edit_user_8php.html#a881924afaecbe8ee5c0d26174a1e8081", null ],
-    [ "$config", "d5/d8c/edit_user_8php.html#a49c7011be9c979d9174c52a8b83e5d8e", null ],
     [ "$dni", "d5/d8c/edit_user_8php.html#aee9b50bd27322da677c326223fdbf8ac", null ],
     [ "$dniUsuario", "d5/d8c/edit_user_8php.html#a7a5d505c8d9c0f8ea7171675fe909808", null ],
     [ "$resultado", "d5/d8c/edit_user_8php.html#a06face0ef35c41554d8f4fe115363f58", null ],

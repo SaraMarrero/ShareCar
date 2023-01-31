@@ -1,4 +1,8 @@
 <?php
+/**
+    * @version 1.0
+    * @package views
+ */
     try{
         $conexion = new PDO('mysql:host=' . $config['db']['host'],$config['db']['user'],$config['db']['pass'],$config['db']['options']);
         $sql = file_get_contents("../data/bbdd.sql");

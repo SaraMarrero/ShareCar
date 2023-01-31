@@ -1,6 +1,8 @@
+-- Se crea la base de datos
 CREATE DATABASE sharecar;
 use sharecar;
 
+-- Se crean las tablas usuario, viaje y datosViaje
 CREATE TABLE usuario(
     dniUsuario VARCHAR(9) PRIMARY KEY,
     nombreUsuario VARCHAR(20) NOT NULL,

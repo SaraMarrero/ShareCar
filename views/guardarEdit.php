@@ -1,4 +1,8 @@
 <?php
+/**
+    * @version 1.0
+    * @package views
+ */
 
     include '../functions/functions.php';
 

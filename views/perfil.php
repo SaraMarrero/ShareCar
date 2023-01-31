@@ -1,4 +1,9 @@
 <?php 
+/**
+    * @version 1.0
+    * @package views
+ */
+
     session_start();
 
     include '../functions/functions.php';

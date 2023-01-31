@@ -1,4 +1,13 @@
 <?php
+/**
+    * @author Sara Marrero Miranda
+    * @version 1.0
+    * @package General
+    * @Date: 2023-01-31
+    * $email: saramarreromiranda@gmail.com
+    * @Github: https://github.com/SaraMarrero
+ */
+
     session_start();
 ?>
 

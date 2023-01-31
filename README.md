@@ -5,3 +5,8 @@ Este proyecto va sobre una web para compatir coche. En el cuál, sus principales
 
 ![Pagina principal](./img/imgReadme/3.png)
 
+# Instalación
+1. El primer para es instalar el repsitorio de la siguiente manera:
+```
+git clone https://github.com/SaraMarrero/ShareCar.git
+```

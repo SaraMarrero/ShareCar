@@ -14,6 +14,8 @@ Este proyecto va sobre una web para compatir coche. En el cuál, sus principales
 git clone https://github.com/SaraMarrero/ShareCar.git
 ```
 
+
+
 2. El segundo paso es crear la base de datos, el archivo de la base de datos está en la siguiente ruta:
 ```
 data/bbdd.sql
@@ -22,18 +24,26 @@ Puede instalarla por medio del xampp, solo tiene que activar mysql, entrar en sh
 
 3. El tercer paso es crear el archivo '.env' en el cuál tendrá que crear las variables de entorno para poder conectarse con la base de datos ya creada, se debe mostrar así:
 ```
-DB_HOST = 'localhost'
-DB_USER = 'root'
-DB_PASS = ''
-db_name = 'sharecar'
+DB_HOST = localhost
+DB_USER = root
+DB_PASS = 
+db_name = sharecar
 ```
 
-4. El cuarto paso es tener activado apache y mysql en xampp, y ejecutar desde el directorio raíz el siguiente comando:
+4. El cuarto paso es instalar las dependencias de composer de la siguiente manera:
+```
+composer install
+composer update
+```
+
+Tras introducir esos comando se le debería de generar el archivo composer.lock
+
+5. El quinto paso es tener activado apache y mysql en xampp, y ejecutar desde el directorio raíz el siguiente comando:
 ```
 php -S localhost:8000
 ```
 
-5. El quinto y último paso es ejecutar en el navegador la siguiente ruta:
+6. El sexto y último paso es ejecutar en el navegador la siguiente ruta:
 ```
 http://localhost:8000
 ```

@@ -7,7 +7,6 @@
     * @email: saramarreromiranda@gmail.com
     * @Github: https://github.com/SaraMarrero
  */
-
     session_start();
 ?>
 

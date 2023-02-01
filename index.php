@@ -8,9 +8,6 @@
     * @Github: https://github.com/SaraMarrero
  */ 
     session_start();
-    include '../functions/functions.php';
-    $conexion = conexion();
-);
 ?>
 
 <?php include "parts/header.php"; ?>

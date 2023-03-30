@@ -51,7 +51,7 @@ http://localhost:8000
 
 # Uso de la aplicación
 ## Usuario sin cuenta
-El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo podrá visualizar la página principal para ver un poco las característicaS de lo que ofrece la web, si quiere acceder al resto de apartados, tendría que tener una cuenta activa. 
+El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo podrá visualizar la página principal para ver un poco las características de lo que ofrece la web, si quiere acceder al resto de apartados, tendría que tener una cuenta activa. 
 
 ## Usuario con cuenta
 1. Para poder usar la web, si es nuevo usuario, primero tiene que registrarse, para acceder a la página de registro tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Registrarse', en caso de que ya tenga cuenta, deberá acceder al mismo botón desplegable y ahí entrar a 'Iniciar Sesión'.

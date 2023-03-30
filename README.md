@@ -53,7 +53,7 @@ http://localhost:8000
 ## Usuario sin cuenta
 El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo podrá visualizar la página principal para ver un poco las características de lo que ofrece la web, si quiere acceder al resto de apartados, tendría que tener una cuenta activa. 
 
-## Usuario con cuenta
+## 👤Usuario con cuenta
 1. Para poder usar la web, si es nuevo usuario, primero tiene que registrarse, para acceder a la página de registro tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Registrarse', en caso de que ya tenga cuenta, deberá acceder al mismo botón desplegable y ahí entrar a 'Iniciar Sesión'.
 
 2. Una vez dentro de la app, podrá publicar un viaje, ver los viajes disponibles, reservar un viaje o editar su propia información de usuario.
@@ -66,7 +66,7 @@ El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo pod
 
 6. Para **editar su propia información de usuario** tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla con sus datos y a la derecha un botón que pone 'Editar', si le da a ese botón la web le mandará a una página con un formulario donde podrá editar sus datos, tras cambiar los datos que desee el usuario solo hay que darle al botón que poner que esta justo debajo que pone 'Editar' y la web lo volverá a llevar la página de perfil.
 
-## Administrador
+## 👤Administrador
 1. El administrador podrá ver todos los viajes (los disponibles, los que ya no tengan plazas y los pasados de fecha), borrar viajes, ver todos los usuarios registrados en la web y borrar usuarios.
 
 2. Para **ver todos los viajes** tiene dos enlaces, uno en el menú y otro en medio de la página principal, una vez acceda por unos de esos botones, deberá aparecer una tablas con todos los viajes los viajes especificiando en la columna de pasajeros si estan o no disponibles.
@@ -75,7 +75,7 @@ El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo pod
 
 4. Para **borar un usuario** tendría que ir al menú, al botón desplegable para los usarios y ahí darle al botón de 'Perfil', una vez dentro se verá una tabla los datos de todos los usuarios registrados (salvo la contraseña) y a la derecha un botón que pone 'Borrar', simplemente dandole click a ese botón ya se está eliminado el usuario.
 
-# Tecnologías
+# 🪛Tecnologías
 Para llevar a cabo la realización de este proyecto, he utilizado:
 * HTML
 * CSS
@@ -86,5 +86,5 @@ Para llevar a cabo la realización de este proyecto, he utilizado:
 # Autora
 * Sara Marrero Miranda
 
-# Documentación
+# 📚Documentación
 [Documentacion con Doxygen](https://sharecar.herokuapp.com/docs/html/index.html) 

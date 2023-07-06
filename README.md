@@ -4,7 +4,7 @@ Importante aclarar que no es una página web real, es un proyecto creado para el
 # ShareCar
 Este proyecto va sobre una web para compatir coche. En el cuál, sus principales funciones serán crear, leer, actualizar y borrar datos (CRUD). 
 
-# Página principal
+# 📸 Página principal
 
 ![Pagina principal](./img/imgReadme/3.png)
 

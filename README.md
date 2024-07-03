@@ -84,7 +84,7 @@ Para llevar a cabo la realización de este proyecto, he utilizado:
 * Doxygen
 * Github
 
-# Autora
+# 👩🏻‍💻Autora
 * Sara Marrero Miranda
 
 # 📚Documentación
